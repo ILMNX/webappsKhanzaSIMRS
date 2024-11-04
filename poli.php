@@ -84,7 +84,7 @@
 	    $hari=getOne("select DAYNAME(current_date())");
 	    $namahari="";
 	    if($hari=="Sunday"){
-			$namahari="AKHAD";
+			$namahari="MINGGU";
 		}else if($hari=="Monday"){
 			$namahari="SENIN";
 		}else if($hari=="Tuesday"){
